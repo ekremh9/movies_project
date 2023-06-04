@@ -10,8 +10,8 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
-@Document(collection = "movies")
-@Data  //annotation from Lombo that takes care of getters, setters and two string methods
+@Document(collection = "movies") //noSQL DB - specifically mongoDB
+@Data  //annotation from Lombok that takes care of getters, setters and two string methods
 @AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
